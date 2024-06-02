@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jialing Zou</title>
+    <title>Jerry Chow</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -50,14 +50,30 @@
             max-width: 150px;
             border-radius: 50%;
         }
+        .education {
+            margin-bottom: 2em;
+        }
+        .education-entry {
+            margin-bottom: 1em;
+        }
+        .education-title {
+            font-weight: bold;
+        }
+        .publication {
+            margin-bottom: 1em;
+        }
+        .publication-title {
+            font-weight: bold;
+        }
     </style>
 </head>
 <body>
     <header>
-        <h1>主页</h1>
+        <h1>Jerry Chow</h1>
     </header>
     <nav>
         <a href="#about">个人简介</a>
+        <a href="#work">工作经历</a>
         <a href="#education">教育经历</a>
         <a href="#publications">论文发表</a>
         <a href="#projects">科研项目</a>
@@ -70,13 +86,48 @@
         </div>
         <p>这里是你的个人简介内容。</p>
     </section>
+    <section id="work">
+        <h2>工作经历</h2>
+        <p>这里是你的工作经历内容。</p>
+    </section>
     <section id="education">
         <h2>教育经历</h2>
-        <p>这里是你的教育经历内容。</p>
+        <div class="education">
+            <div class="education-entry">
+                <div class="education-title">学校名称 1</div>
+                <div>学位: 学位名称 1</div>
+                <div>专业: 专业名称 1</div>
+                <div>时间: 时间范围 1</div>
+            </div>
+            <div class="education-entry">
+                <div class="education-title">学校名称 2</div>
+                <div>学位: 学位名称 2</div>
+                <div>专业: 专业名称 2</div>
+                <div>时间: 时间范围 2</div>
+            </div>
+            <div class="education-entry">
+                <div class="education-title">学校名称 3</div>
+                <div>学位: 学位名称 3</div>
+                <div>专业: 专业名称 3</div>
+                <div>时间: 时间范围 3</div>
+            </div>
+        </div>
     </section>
     <section id="publications">
         <h2>论文发表</h2>
-        <p>这里是你的论文发表内容。</p>
+        <div class="publication">
+            <div class="publication-title">论文标题 1</div>
+            <div>作者: 你的名字</div>
+            <div>发表日期: 发表日期 1</div>
+            <div><a href="论文链接1">查看论文</a></div>
+        </div>
+        <div class="publication">
+            <div class="publication-title">论文标题 2</div>
+            <div>作者: 你的名字</div>
+            <div>发表日期: 发表日期 2</div>
+            <div><a href="论文链接2">查看论文</a></div>
+        </div>
+        <!-- 继续添加你的其他论文 -->
     </section>
     <section id="projects">
         <h2>科研项目</h2>
@@ -88,7 +139,3 @@
     </section>
 </body>
 </html>
-
-
-
-
